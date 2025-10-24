@@ -12,7 +12,7 @@ declare global {
         interface Request {
             currentUser?: UserPayload
             session?: {
-                jwt: string
+                jwt: string | null
             }
         }
     }
