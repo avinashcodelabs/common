@@ -1,4 +1,4 @@
-const PI = 3.14;
+const PI: number = 3.14;
 export {
     PI
 }
