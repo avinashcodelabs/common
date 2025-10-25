@@ -11,14 +11,14 @@ import { requireAuth } from "./middlewares/require-auth.js";
 import { validateRequest } from "./middlewares/validate-request.js";
 
 export {
-    BadRequestError,
-    CustomError,
-    DatabaseConnectionError,
-    NotAuthorizedError,
-    NotFoundError,
-    RequestValidationError,
-    currentUser,
-    errorHandler,
-    requireAuth,
-    validateRequest
-}
+  BadRequestError,
+  CustomError,
+  DatabaseConnectionError,
+  NotAuthorizedError,
+  NotFoundError,
+  RequestValidationError,
+  currentUser,
+  errorHandler,
+  requireAuth,
+  validateRequest,
+};
