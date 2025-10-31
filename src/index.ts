@@ -16,6 +16,8 @@ export * from "./events/subjects";
 export * from "./events/ticket-create-event";
 export * from "./events/ticket-update-event";
 export * from "./events/types/order-status";
+export * from "./events/order-cancel-event";
+export * from "./events/order-create-event";
 
 export {
   BadRequestError,
