@@ -7,7 +7,7 @@ interface Event {
 }
 
 abstract class Listener<T extends Event> {
-  private client: Stan;
+  protected client: Stan;
 
   // queue group name is for selecting the particular(one)
   // listener whenever we have multiple, and send the event to
