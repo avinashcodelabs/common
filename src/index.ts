@@ -23,6 +23,8 @@ export * from "./events/order-create-event";
 
 export * from "./events/expiration-complete-event";
 
+export * from "./events/payment-create-event";
+
 export {
   BadRequestError,
   CustomError,
